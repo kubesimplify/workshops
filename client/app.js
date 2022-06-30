@@ -6,7 +6,7 @@ var btnWorshop3 = document.getElementById("work-3");
 
 // __________________________________________________________________
 
-var URL = ${{ secrets.URL }} ;
+var URL = process.env.DOMIAN ;
 
 btnWorshop1.addEventListener("click", function (e) {
   e.preventDefault();
