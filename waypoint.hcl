@@ -38,14 +38,14 @@ app "demo" {
     }
     deploy { 
       use "kubernetes" {
-          service_port = 8080
+          service_port = 3000
   }
     }
 
     release {
       use "kubernetes" {
         node_port = 31769
-        port = 8080
+        port = 3000
       }
     }
 }
