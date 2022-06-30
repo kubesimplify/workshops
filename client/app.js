@@ -6,7 +6,7 @@ var btnWorshop3 = document.getElementById("work-3");
 
 // __________________________________________________________________
 
-var URL = process.env.DOMIAN ;
+var URL = "http://74.220.19.48:3000" ;
 
 btnWorshop1.addEventListener("click", function (e) {
   e.preventDefault();
