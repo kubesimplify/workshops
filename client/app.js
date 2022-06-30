@@ -6,7 +6,7 @@ var btnWorshop3 = document.getElementById("work-3");
 
 // __________________________________________________________________
 
-var URL = "localhost:3000";
+var URL = ${{ secrets.URL }} ;
 
 btnWorshop1.addEventListener("click", function (e) {
   e.preventDefault();
