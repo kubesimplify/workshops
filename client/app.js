@@ -1,11 +1,5 @@
 // Bringing the register buttons from HTML
-module.exports = {
-plugins: [
-    new webpack.DefinePlugin({
-      'process.env.DOMIAN': JSON.stringify(process.env.DOMIAN),
-    })
-],
-}
+
 
 var btnWorshop1 = document.getElementById("work-1");
 var btnWorshop2 = document.getElementById("work-2");
@@ -13,7 +7,7 @@ var btnWorshop3 = document.getElementById("work-3");
 
 // __________________________________________________________________
 
-var URL = process.env.DOMIAN ;
+var URL = "http://74.220.22.8:31769" ;
 
 btnWorshop1.addEventListener("click", function (e) {
   e.preventDefault();
