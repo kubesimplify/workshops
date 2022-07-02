@@ -1,4 +1,11 @@
 // Bringing the register buttons from HTML
+module.exports = {
+plugins: [
+    new webpack.DefinePlugin({
+      'process.env.DOMIAN': JSON.stringify(process.env.DOMIAN),
+    })
+],
+}
 
 var btnWorshop1 = document.getElementById("work-1");
 var btnWorshop2 = document.getElementById("work-2");
