@@ -7,7 +7,7 @@
 }
 body {
   padding-top: 70px;
-  min-height: 100vh;
+  min-height: 120vh;
   background: linear-gradient(135deg, #5cff68, #05caff);
   background-repeat: no-repeat;
 }
